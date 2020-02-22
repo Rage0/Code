@@ -9,7 +9,7 @@ if res.status_code == 200:
     titleName = []
     titlePrice = []
     title = []
-    while page != 1:
+    while page != page_data():
         page += 1
         URL = 'https://ru.banggood.com/Wholesale-Electronics-c-1091-0-1-1-36-0_page{}.html'.format(page)
 
