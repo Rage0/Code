@@ -10,7 +10,7 @@ import Geocoder
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
 
-TOKEN = '1132629075:AAFR8WqUgGqU-ycTq3Z4wjKC_VTMO4R2W-U'
+TOKEN = 'My_Token'
 updater = Updater(token=TOKEN, use_context=True)
 
 # ЕСЛИ ПОСЛЕ ВЫВОДА СООБЩЕНИЯ ПОЛЬЗОВАТЕЛЕМ, НИЧЕГО НЕ ПРОИХОДИТ
